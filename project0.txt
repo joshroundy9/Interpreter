@@ -1,0 +1,38 @@
+define gcdRecursive (a, b : integer; var gcd: integer) 
+    if b = 0 then
+        gcd := a
+    else
+        gcdRecursive b, a mod b, gcd
+
+define fibonacci (max: integer; var output : integer)
+variables first, placeholder, counter : integer
+    if max = 0 then 
+        Write "0"
+    elsif true then
+        first := 0
+        output := 1
+        placeholder := 1
+
+    for counter from 0 to max
+        placeholder := output
+        output := output+first
+        first := placeholder
+
+define start()
+variables output, in1,in2,in3 : integer
+    Write "Enter two integers you would like to find the greatest common denomenator of and then the term of the fibonacci sequence you want displayed."
+    Read in1,in2,in3
+    gcdRecursive in1,in2, var output
+    Write "gcd output", output
+    fibonacci in3, output
+    if in3 = 1 then
+        Write "The 1st output in the fibonacci sequence is ", output
+    elsif in3 = 2 then
+        Write "The 2nd output in the fibonacci sequence is ", output
+    else
+        Write "The #",in3,"in the fibonacci sequence is", output
+    Write "DEMO OF BOOLEAN OPERATIONS:"
+    while not 3=3
+        Write "Impossible"
+    if false or 3=3 then
+        Write "This will always happen"

@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Shank",
+            "request": "launch",
+            "mainClass": "Main.Shank",
+            "args": "project0.txt",
+            "projectName": "Assignments_cb673826"
+        },
+        {
+            "type": "java",
+            "name": "Shank",
+            "args": "test.txt",
+            "request": "launch",
+            "mainClass": "Main.Shank",
+            "projectName": "Assignments_bab4b1da"
+        }
+    ]
+}

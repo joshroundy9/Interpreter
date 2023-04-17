@@ -1,0 +1,13 @@
+define start()
+constants testString = "Hi, my name is josh and this is a test"
+variables varString : string
+    Write testString
+    myFunction testString, var varString
+    Write varString
+
+define myFunction(one : string;var output : string)
+    output:=3.3
+    
+
+    
+        

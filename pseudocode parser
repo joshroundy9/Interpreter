@@ -1,0 +1,15 @@
+
+expression
+check for term
+check for + or - sign
+if no sign, return
+if sign check for term
+if term repeat until no sign, term is found
+
+
+term
+check for factor, if no sign return factor
+check for operator check for factor again and create expression
+
+factor
+check for minus, then check for number and return number node based on the type
