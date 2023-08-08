@@ -1,1 +1,3 @@
-## Will write later
+## Interpreter
+This project contains the Lexer, Parser, and Interpreter I built for the class ICSI 311.
+The class gave a broad set of instructions and explanations on how the language should be structured and how each of the individual components run, but the details were left up to the students. During development, I added several features where the most impactful was the "End" keyword which acts as an empty return statement to end the function when needed. Since functions do not return any values and only modify variables that were passed in, I felt it was important to vary from the class instructions to make this addition.
